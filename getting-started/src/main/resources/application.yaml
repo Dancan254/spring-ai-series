@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: getting-started
+
+  ai:
+    ollama:
+      chat:
+        model: llama3.2

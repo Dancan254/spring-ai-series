@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: multi-model-demo
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o
+app:
+  openai:
+    api-key: ${OPENAI_API_KEY}
+  groq:
+    api-key: ${GROQ_API_KEY}
+
+logging:
+  level:
+    com:
+      javaguy:
+        multimodeldemo: INFO
